@@ -1,0 +1,89 @@
+---
+format:
+  revealjs:
+    transition: fade
+    css: www/styles.css
+    theme: simple
+execute: 
+  echo: false
+  warning: false
+  error: false
+---
+
+## Dados para todos {#sl1}
+
+<h2>Iniciando sua jornada no mundo da programação</h2>
+
+```{r}
+# Carrega bibliotecas
+library(dplyr)
+library(ggplot2)
+library(ggiraph)
+library(glue)
+library(htmltools)
+
+# https://sparktuga.shinyapps.io/ShinyDecisions/
+# https://gringer.shinyapps.io/poretris/
+# https://rcharlie.shinyapps.io/sentify/
+# https://vivekkatial.shinyapps.io/uber_shiny/
+# https://ehermo.shinyapps.io/monster-maze-shiny/
+# https://dreamrs.shinyapps.io/memory-hex/
+# https://dgranjon.shinyapps.io/shinyMons/_w_a3df9858/
+# https://github.com/koenderks/aRtsy
+# https://leonawicz.github.io/tabr/index.html
+
+# https://github.com/BaruqueRodrigues/Curso-de-R
+# https://www.cursoemvideo.com
+# https://www.youtube.com/playlist?list=PLyqOvdQmGdTQ5dE6hSD7ZGBu8bud70wYf
+# https://www.youtube.com/watch?v=8mei6uVttho&list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV
+# https://cran.r-project.org/doc/manuals/r-release/R-intro.html
+# https://www.youtube.com/playlist?list=PLOKVTjzY3Z9tHhoEJILnC9zLAV-_zfe8k
+
+```
+
+<!-- ########################## Slide ########################## -->
+## O que é R? {#sl2}
+
+<div>
+
+![](www/images/Rlogo.png)
+
+> É uma linguagem focada no uso de técnicas **estatísticas** e **gráficas**. A comunidade costuma **traduzir  ferramentas** em outras linguagens para uso em R.
+
+</div>
+
+<!-- ########################## Slide ########################## -->
+## Na SEPLAG {#sl3}
+
+- BI's
+  + ARGOS: Monitoramento da Segurança Pública
+  + Alvos prioritários: Informações sobre pessoas de interesse da Segurança Pública
+  + Monitor ALEPE
+  + Localizador de creches
+  
+- Relatórios automatizados
+  + Repasses municipais: 
+  + Ficha municipal
+  + Custódia
+  
+- Tarefas automatizadas
+  + Calculadora de acidentes terrestres
+  + Extrator de glosas
+
+<!-- ########################## Slide ########################## -->
+## Como usar o R? {#sl4}
+
+- RStudio é a principal IDE
+  + Local: Download do R e RStudio
+  + Nuvem: Acesso direto sem setup
+
+- Bibliotecas
+
+<!-- ########################## Slide ########################## -->
+## Onde começar a aprender? {#sl5}
+
+
+<!-- ########################## Slide ########################## -->
+## R criativo {#sl6}
+
+
