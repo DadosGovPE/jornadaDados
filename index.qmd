@@ -10,80 +10,348 @@ execute:
   error: false
 ---
 
-## Dados para todos {#sl1}
+##  {#sl1}
 
+<h1>Dados para todos</h1>
 <h2>Iniciando sua jornada no mundo da programação</h2>
 
-```{r}
-# Carrega bibliotecas
-library(dplyr)
-library(ggplot2)
-library(ggiraph)
-library(glue)
-library(htmltools)
+<!-- ########################## Slide ########################## -->
+## {.head}
 
-# https://sparktuga.shinyapps.io/ShinyDecisions/
-# https://gringer.shinyapps.io/poretris/
-# https://rcharlie.shinyapps.io/sentify/
-# https://vivekkatial.shinyapps.io/uber_shiny/
-# https://ehermo.shinyapps.io/monster-maze-shiny/
-# https://dreamrs.shinyapps.io/memory-hex/
-# https://dgranjon.shinyapps.io/shinyMons/_w_a3df9858/
-# https://github.com/koenderks/aRtsy
-# https://leonawicz.github.io/tabr/index.html
+![](www/images/pc.jpg)
 
-# https://github.com/BaruqueRodrigues/Curso-de-R
-# https://www.cursoemvideo.com
-# https://www.youtube.com/playlist?list=PLyqOvdQmGdTQ5dE6hSD7ZGBu8bud70wYf
-# https://www.youtube.com/watch?v=8mei6uVttho&list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV
-# https://cran.r-project.org/doc/manuals/r-release/R-intro.html
-# https://www.youtube.com/playlist?list=PLOKVTjzY3Z9tHhoEJILnC9zLAV-_zfe8k
-
-```
+Por que programar?
 
 <!-- ########################## Slide ########################## -->
-## O que é R? {#sl2}
+## Programação é uma mãozinha extra
 
-<div>
-
-![](www/images/Rlogo.png)
-
-> É uma linguagem focada no uso de técnicas **estatísticas** e **gráficas**. A comunidade costuma **traduzir  ferramentas** em outras linguagens para uso em R.
-
+![](www/images/task.png){.Rdown}
+<div style="text-align:center;">
+<a href="https://multitaskgames.com/multitask-game.html" target="_blank" >Acessar</a>
 </div>
 
 <!-- ########################## Slide ########################## -->
-## Na SEPLAG {#sl3}
+## Automatizar processos e diminuir erros
 
-- BI's
-  + ARGOS: Monitoramento da Segurança Pública
-  + Alvos prioritários: Informações sobre pessoas de interesse da Segurança Pública
-  + Monitor ALEPE
-  + Localizador de creches
-  
-- Relatórios automatizados
-  + Repasses municipais: 
-  + Ficha municipal
-  + Custódia
-  
-- Tarefas automatizadas
-  + Calculadora de acidentes terrestres
-  + Extrator de glosas
+- Unir **várias planilhas** em uma só
+- Consertar o mesmo **erro que sempre aparece** em dados que você recebe
+- Gerar **vários relatórios** com múltiplos campos padronizados
 
 <!-- ########################## Slide ########################## -->
-## Como usar o R? {#sl4}
+## Automatizar processos e diminuir erros
 
-- RStudio é a principal IDE
+- Identificar as coordenadas de **vários endereços**
+- Coletar **múltiplas notícias** sobre um tema
+- Listar **todos os cursos** ofertados por um portal
+- Encontrar quais os **termos mais frequentes** das pergutas abertas de um formulário
+
+<!-- ########################## Slide ########################## -->
+## {.head}
+
+![](www/images/Rlogo.svg)
+
+O que é R?
+
+<!-- ########################## Slide ########################## -->
+## {#sl3}
+
+É uma linguagem focada no uso de técnicas **estatísticas** e **gráficas**. A comunidade costuma criar ferramentas que dialogam com **ferramentas externas** como Excel ou ChatGPT.
+
+![](www/images/thumb.png){.img-width}
+
+. . .
+
+<div id="examples">
+ALGUNS EXEMPLOS!
+</div>
+
+<!-- ########################## Slide ########################## -->
+## Crise hídrica em Portugal {.exmp-slide}
+
+- Mapas de calor circulares para ilustrar efeitos sazonais
+- Mapa cloropético das bacias por volume
+
+![](www/images/example1.png){.exmp-img}
+
+<!-- ########################## Slide ########################## -->
+## Primeiro teste clínico controlado {.exmp-slide}
+
+- Estrutura de tabela
+- Uso de ícones
+
+![](www/images/example2.png){.exmp-img}
+
+<!-- ########################## Slide ########################## -->
+## Termos mais frequentes em sambas {.exmp-slide}
+
+- Pedidos automatizados para o Gemini (IA)
+- Trabalho com dados textuais
+
+![](www/images/example3.png){.exmp-img}
+
+
+
+
+
+
+<!-- ########################## Slide ########################## -->
+## {.head}
+
+![](www/images/seplag.jpg)
+
+Usos do R na SEPLAG
+
+<!-- ########################## Slide ########################## -->
+## BI's
+
+- **ARGOS:** Monitoramento da Segurança Pública
+- **Alvos prioritários:** Informações sobre pessoas de interesse da Segurança Pública
+
+<!-- ########################## Slide ########################## -->
+## BI's
+
+- <a href="https://projesp.seplag.pe.gov.br/apps/alepe/" target="_blank">**Monitor ALEPE:**</a> Categorização e resumo das proposições realizadas na ALEPE
+  
+![](www/images/seplag1.png){.img-width}
+
+<!-- ########################## Slide ########################## -->
+## BI's
+
+- <a href="https://projesp.seplag.pe.gov.br/apps/localizadorCreches" target="_blank">**Localizador de creches:**</a> Ferramenta para identificar locais para construção de creches
+
+![](www/images/seplag2.png){.img-width}
+
+<!-- ########################## Slide ########################## -->
+## Relatórios automatizados
+
+- <a href="https://projesp.seplag.pe.gov.br/apps/localizadorCreches" target="_blank">**Repasses municipais:**</a> Exibe dados de repasses armazenados numa planilha online
+- <a href="https://projesp.seplag.pe.gov.br/apps/localizadorCreches" target="_blank">**Ficha municipal:**</a> Exibe dados dos municípios armazenados em planilha no Owncloud
+- **Custódia:** Busca rápida por nomes no INFOPOL
+
+![](www/images/seplag3.png){.img-width}
+
+<!-- ########################## Slide ########################## -->
+## Tarefas automatizadas
+
+- Extrator de glosas: Estrutura dados de um .txt e preenche planilhas do Excel
+
+![](www/images/seplag4.png){.img-width}
+
+<!-- ########################## Slide ########################## -->
+## Tarefas automatizadas
+
+- Calculadora de acidentes terrestres: Compara nomes (preenchidos manualmente) nas bases SINATT e Glosas
+- Identificação de egressos do sistema prisional: Compara nomes (preenchidos manualmente) nas bases de egressos e óbitos
+
+<!-- ########################## Slide ########################## -->
+## {.head}
+
+![](www/images/build.jpg)
+
+Como usar o R?
+
+<!-- ########################## Slide ########################## -->
+## RStudio
+
+- Interface famosa que pode ser acessada via:
   + Local: Download do R e RStudio
-  + Nuvem: Acesso direto sem setup
+  + Online: Acesso direto sem downloads (em inglês)
 
-- Bibliotecas
-
-<!-- ########################## Slide ########################## -->
-## Onde começar a aprender? {#sl5}
-
+![](www/images/rstudio1.png){.img-width}
 
 <!-- ########################## Slide ########################## -->
-## R criativo {#sl6}
+## Usando RStudio no computador
+
+1. Baixar o **R** para Windows: <a href="https://cran.r-project.org/bin/windows/base/" target="_blank">Página do R</a>
+  
+![](www/images/rstudio2.png){.Rdown}
+
+<!-- ########################## Slide ########################## -->
+## Usando RStudio no computador
+
+2. Instalar o **R**, sempre clicando em "Avançar"
+  
+![](www/images/rstudio3.png){.Rinst}
+
+<!-- ########################## Slide ########################## -->
+## Usando RStudio no computador
+
+3. Baixar o **RStudio** para Windows: <a href="https://posit.co/download/rstudio-desktop/" target="_blank">Página do RStudio</a>
+  
+![](www/images/rstudio4.png){.Rdown}
+
+<!-- ########################## Slide ########################## -->
+## Usando RStudio no computador
+
+4. Instalar o **RStudio**, sempre clicando em "Próximo"
+  
+![](www/images/rstudio5.png){.Rinst}
+
+<!-- ########################## Slide ########################## -->
+## Usando RStudio no computador
+
+4. Por fim, ao clicar no ícone do RStudio, vemos o ambiente de trabalho do R
+  
+![](www/images/rstudio6.png){.Rinst}
+
+<!-- ########################## Slide ########################## -->
+## Usando RStudio online
+
+1. Criar conta no site da **Posit:** <a href="https://login.posit.cloud/login" target="_blank">Página da Posit</a>
+  
+![](www/images/rstudio7.png){.Rdown}
+
+<!-- ########################## Slide ########################## -->
+## Usando RStudio online
+
+2. Acessar o serviço **Posit Cloud**
+  
+![](www/images/rstudio8.png){.Rdown}
+
+<!-- ########################## Slide ########################## -->
+## Usando RStudio online
+
+3. Por padrão temos um "workspace". É preciso criar um "RStudio Project" nele para poder produzir códigos
+  
+![](www/images/rstudio9.png){.Rdown}
+
+<!-- ########################## Slide ########################## -->
+## Usando RStudio online
+
+4. Por fim, vemos uma tela similar à da instalação local do RStudio
+  
+![](www/images/rstudio10.png){.Rdown}
+
+<!-- ########################## Slide ########################## -->
+## Google Colab
+
+- **Google Colab** é uma alternativa ao RStudio online. Demanda apenas uma conta Google
+
+![](www/images/colabLogo.svg){.Rdown}
+
+<!-- ########################## Slide ########################## -->
+## Google Colab
+
+1. Por padrão o Colab usa Python. Podemos mudar essa configuração no menu **Ambiente de execução** e clicando na opção **Alterar o tipo de ambiente de execução**
+  
+![](www/images/colab1.png){.Rdown}
+
+<!-- ########################## Slide ########################## -->
+## Google Colab
+
+2. Na tela que se abre devemos clicar no menu **Tipo de ambiente de execução** e escolher **R** e salvar logo em seguida.
+  
+![](www/images/colab2.png){.Rdown}
+
+<!-- ########################## Slide ########################## -->
+## Google Colab
+
+3. Códigos em R agora podem ser usados nesse notebook!
+  
+![](www/images/colab3.png){.Rdown}
+
+<!-- ########################## Slide ########################## -->
+## {.head}
+
+![](www/images/start.jpg)
+
+Começando a aprender
+
+<!-- ########################## Slide ########################## -->
+## {}
+
+- Curso em vídeo: <a href="https://www.cursoemvideo.com" target="_blank">Link</a>
+- Curso R: <a href="https://curso-r.com" target="_blank">Link</a> 
+- Didática Tech: <a href="https://www.youtube.com/playlist?list=PLyqOvdQmGdTQ5dE6hSD7ZGBu8bud70wYf" target="_blank">Link</a> 
+- Marcos Vital: <a href="https://www.youtube.com/playlist?list=PLOKVTjzY3Z9tHhoEJILnC9zLAV-_zfe8k" target="_blank">Link</a>
+- Baruque: <a href="https://github.com/BaruqueRodrigues/Curso-de-R" target="_blank">Link</a>
+- R Intro: <a href="https://cran.r-project.org/doc/manuals/r-release/R-intro.html" target="_blank">Link</a>
+- From data to viz: <a href="https://www.data-to-viz.com" target="_blank">Link</a>
+- Livro do Curso R: <a href="https://livro.curso-r.com" target="_blank">Link</a> 
+
+<!-- ########################## Slide ########################## -->
+## {.head}
+
+![](www/images/help.jpg)
+
+Dicas importantes
+
+<!-- ########################## Slide ########################## -->
+## Aprender juntos!
+
+- Juntar-se com outras pessoas de variados níveis em programação para aprender e compartilhar conhecimento
+- R Brasil - Programadores (Facebook): <a href="https://www.facebook.com/groups/rbrasilprogramadores" target="_blank">Link</a>
+- R Brasil (Telegram): <a href="https://t.me/rbrasiloficial" target="_blank">Link</a>   
+
+<!-- ########################## Slide ########################## -->
+## Ajuda de IA e Fóruns
+
+- <a href="chat.openai.com" target="_blank">**ChatGPT**</a> e <a href="gemini.google.com" target="_blank">**Gemini**</a> (Google) respondem bem a perguntas sobre códigos
+- Fóruns como o <a href="https://stackoverflow.com" target="_blank">**Stack Overflow**</a> e do <a href="https://discourse.curso-r.com" target="_blank">**Curso-R**</a> costumam ter soluções para problemas simples e complexos
+
+<!-- ########################## Slide ########################## -->
+## Usar interfaces
+
+- Tem problemas com instalação? Use o **Colab** ou a **Posit Cloud**
+- Alternativamente, há várias interfaces para uso no computador
+  + Jamovi: <a href="https://www.youtube.com/watch?v=pDaHmpKCyn0" target="_blank">Link</a>
+  + BlueSky: <a href="https://www.blueskystatistics.com" target="_blank">Link</a>
+  + Esquisse: <a href="https://dreamrs.github.io/esquisse/" target="_blank">Link</a>
+
+<!-- ########################## Slide ########################## -->
+## Jamovi
+
+- Interface similar a da Microsoft. Permite importar e manipular dados como em um planilha. Também faz análises estatísticas
+
+![](www/images/intfc1.png){.Rdown}
+
+<!-- ########################## Slide ########################## -->
+## BlueSky
+
+- Interface mais avançada e extremamente versátil
+
+![](www/images/intfc2.png){.Rdown}
 
 
+<!-- ########################## Slide ########################## -->
+## Esquisse
+
+- Interface para produzir gráficos arrastando variáveis nos eixos e elementos gráficos. Tem tradução para o português. Também exibe o código usado para criar o gráfico.
+
+![](www/images/intfc3.png){.Rdown}
+
+<!-- ########################## Slide ########################## -->
+## Cheat sheets
+
+- São guias visuais de funcionamento do R. Explicam como funções e ferramentas funcionam: <a href="https://posit.co/resources/cheatsheets/?type=posit-cheatsheets/" target="_blank">Link</a> 
+
+![](www/images/cheat.png){.Rdown}
+
+<!-- ########################## Slide ########################## -->
+## Pequenos passos
+
+- Entender a **lógica** por trás de algoritmos pode ser um bom passo antes de mergulhar numa linguagem: <a href="https://www.youtube.com/watch?v=8mei6uVttho&list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV" target="_blank">Curso em Vídeo</a>
+- As "condições ideiais" para aprender não costumam aparecer. A melhor coisa para o aprendizado é a **prática constante**
+- Uma boa estratégia é integrar o R a tarefas de **menor esforço** e comprometimento
+
+<!-- ########################## Slide ########################## -->
+## {.head}
+
+![](www/images/creative.jpg)
+
+Criatividade pura
+
+<!-- ########################## Slide ########################## -->
+## Jogos em R
+
+- https://sparktuga.shinyapps.io/ShinyDecisions/
+- https://gringer.shinyapps.io/poretris/
+- https://dreamrs.shinyapps.io/memory-hex/
+
+
+
+- https://rcharlie.shinyapps.io/sentify/
+- https://vivekkatial.shinyapps.io/uber_shiny/
+
+- https://github.com/koenderks/aRtsy
+- https://leonawicz.github.io/tabr/index.html
