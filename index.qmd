@@ -10,10 +10,11 @@ execute:
   error: false
 ---
 
-##  {#sl1}
+##  {#capa}
 
 <h1>Dados para todos</h1>
 <h2>Iniciando sua jornada no mundo da programação</h2>
+![](www/images/seplagLogo.svg)
 
 <!-- ########################## Slide ########################## -->
 ## {.head}
@@ -89,10 +90,21 @@ ALGUNS EXEMPLOS!
 
 ![](www/images/example3.png){.exmp-img}
 
+<!-- ########################## Slide ########################## -->
+## Aquecimento global {.exmp-slide}
 
+- Anotação textual em partes do gráfico
+- Uso de fontes fora do padrão
 
+![](www/images/example4.png){.exmp-img}
 
+<!-- ########################## Slide ########################## -->
+## Migração de brasileiros {.exmp-slide}
 
+- Mapa hexagonal que exibe territórios igualmente
+- Legenda altamente customizada
+
+![](www/images/example5.png){.exmp-img}
 
 <!-- ########################## Slide ########################## -->
 ## {.head}
@@ -258,16 +270,34 @@ Como usar o R?
 Começando a aprender
 
 <!-- ########################## Slide ########################## -->
-## {}
+## Curso em vídeo
 
-- Curso em vídeo: <a href="https://www.cursoemvideo.com" target="_blank">Link</a>
-- Curso R: <a href="https://curso-r.com" target="_blank">Link</a> 
-- Didática Tech: <a href="https://www.youtube.com/playlist?list=PLyqOvdQmGdTQ5dE6hSD7ZGBu8bud70wYf" target="_blank">Link</a> 
-- Marcos Vital: <a href="https://www.youtube.com/playlist?list=PLOKVTjzY3Z9tHhoEJILnC9zLAV-_zfe8k" target="_blank">Link</a>
-- Baruque: <a href="https://github.com/BaruqueRodrigues/Curso-de-R" target="_blank">Link</a>
-- R Intro: <a href="https://cran.r-project.org/doc/manuals/r-release/R-intro.html" target="_blank">Link</a>
-- From data to viz: <a href="https://www.data-to-viz.com" target="_blank">Link</a>
-- Livro do Curso R: <a href="https://livro.curso-r.com" target="_blank">Link</a> 
+- Organização criada pelo Gustavo Guanabara e famosa pelos conteúdos online. É particularmente útil para pessoas que querem aderir ao mundo da programação em um amplo senso. <a href="https://www.cursoemvideo.com" target="_blank">Site</a>
+
+<!-- ########################## Slide ########################## -->
+## Curso R
+
+- Referência em ensino em R. Oferta cursos pagos, mas também há bastante conteúdo gratuito como um <a href="https://livro.curso-r.com" target="_blank">livro introdutório</a>. Mais informações podem ser encontradas no <a href="https://curso-r.com" target="_blank">site</a> 
+
+<!-- ########################## Slide ########################## -->
+## Didática Tech
+
+- Oferta dois cursos para R no Youtube. O <a href="https://www.youtube.com/playlist?list=PLyqOvdQmGdTQ5dE6hSD7ZGBu8bud70wYf" target="_blank">curso para iniciantes</a> tem vários vídeos curtos (menos de 20min.)
+
+<!-- ########################## Slide ########################## -->
+## Marcos Vital
+
+- Canal sobre R de um prof. da UFAL. Há uma <a href="https://www.youtube.com/playlist?list=PLOKVTjzY3Z9tHhoEJILnC9zLAV-_zfe8k" target="_blank">playlist</a> do Youtube para iniciantes com vídeos um pouco mais longos e que explora um pouco de Estatística.
+
+<!-- ########################## Slide ########################## -->
+## From data to viz
+
+- Excelente portal sobre visualização de dados. Apresenta recomendações de tipos de gráficos conforme a natureza dos dados e instruções básicas de como produzi-los. <a href="https://www.data-to-viz.com" target="_blank">Link</a>
+
+<!-- ########################## Slide ########################## -->
+## Baruque Rodrigues
+
+- Cientista Social e doutorando em CSRI. Tem diversos conteúdos sobre R, bem como um extraordinário <a href="https://github.com/BaruqueRodrigues/Curso-de-R" target="_blank">curso</a> com material aberto. Planos de em breve produzir um blog.
 
 <!-- ########################## Slide ########################## -->
 ## {.head}
@@ -312,7 +342,6 @@ Dicas importantes
 
 ![](www/images/intfc2.png){.Rdown}
 
-
 <!-- ########################## Slide ########################## -->
 ## Esquisse
 
@@ -344,14 +373,42 @@ Criatividade pura
 <!-- ########################## Slide ########################## -->
 ## Jogos em R
 
-- https://sparktuga.shinyapps.io/ShinyDecisions/
-- https://gringer.shinyapps.io/poretris/
-- https://dreamrs.shinyapps.io/memory-hex/
+- <a href="https://icarobernardes.github.io/carmen_sandiego_DOS/" target="_blank">Carmen Sandiego</a>
+- <a href="https://sparktuga.shinyapps.io/ShinyDecisions/" target="_blank">ShinyDecisions</a>
+- <a href="https://gringer.shinyapps.io/poretris/" target="_blank">PoreTris</a>
+- <a href="https://dreamrs.shinyapps.io/memory-hex/" target="_blank">Memory Hex</a>
 
+![](www/images/carmen.png){.Rinst}
 
+<!-- ########################## Slide ########################## -->
+## Arte
 
-- https://rcharlie.shinyapps.io/sentify/
-- https://vivekkatial.shinyapps.io/uber_shiny/
+- <a href="https://github.com/koenderks/aRtsy" target="_blank">Arte gerada com elementos aleatórios</a>
+- <a href="https://leonawicz.github.io/tabr/index.html" target="_blank">Produção de partituras com R</a>
 
-- https://github.com/koenderks/aRtsy
-- https://leonawicz.github.io/tabr/index.html
+![](www/images/artsy.png){.Rinst}
+
+<!-- ########################## Slide ########################## -->
+## Futebol
+
+- <a href="https://icarobernardes.github.io/calendario-brasileirao/" target="_blank">Histórico de confrontos do Brasileirão</a>
+- <a href="https://icarobernardes.github.io/premier-calendar/" target="_blank">Histórico de confrontos da Premier League</a>
+- <a href="https://icarobernardes.github.io/brazil_lineup/" target="_blank">Convocações do Brasil para as Copas</a>
+
+![](www/images/calendar.png){.Rinst}
+
+<!-- ########################## Slide ########################## -->
+## Explorando dados de uma forma diferente
+
+- <a href="https://icarobernardes.github.io/gp_eleitoral/" target="_blank">GP Presidencial do Brasil</a>
+- <a href="https://rcharlie.shinyapps.io/sentify/" target="_blank">Sentimento das músicas do Spotify</a>
+
+![](www/images/gp.png){.Rinst}
+
+<!-- ########################## Slide ########################## -->
+## Explorando dados de uma forma diferente
+
+- <a href="https://icarobernardes.github.io/webdubois/" target="_blank">Visualizando desigualdade racial com a estética de DuBois</a>
+- <a href="https://rcharlie.shinyapps.io/sentify/" target="_blank">Sentimento das músicas do Spotify</a>
+
+![](www/images/webdubois.png){.Rinst}

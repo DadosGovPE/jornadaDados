@@ -19,6 +19,42 @@
   border-top: #0020c9 8px solid;
 }
 
+#capa h1 {
+  position: absolute;
+  top: -11%;
+  left: -6%;
+  width: 200%;
+  height: 55%;
+  background: #0020c9;
+  color: white;
+  padding-left: 80px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  
+}
+
+#capa h2 {
+  position: absolute;
+  top: 50%;
+  left: -6%;
+  width: 116%;
+  height: 61%;
+  padding-left: 80px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+#capa img {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  width: 50% !important;
+  height: fit-content !important;
+}
+
 #sl3 img {
   position: absolute;
   bottom: -100%;
