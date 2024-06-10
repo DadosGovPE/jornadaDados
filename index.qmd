@@ -24,14 +24,6 @@ execute:
 Por que programar?
 
 <!-- ########################## Slide ########################## -->
-## Programação é uma mãozinha extra
-
-![](www/images/task.png){.Rdown}
-<div style="text-align:center;">
-<a href="https://multitaskgames.com/multitask-game.html" target="_blank" >Acessar</a>
-</div>
-
-<!-- ########################## Slide ########################## -->
 ## Automatizar processos e diminuir erros
 
 - Unir **várias planilhas** em uma só
